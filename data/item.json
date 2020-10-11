@@ -9,12 +9,12 @@
       "id": 1001,
       "name": "Recife",
       "description": "Buy one get one free.",
-      "price": 49,
+      "price": 99,
       "moreInfo": "Available in bulk"
     }, {
       "id": 1002,
       "name": "Long Beach",
       "description": "20% discount",
-      "price": 46,
+      "price": 99,
       "moreInfo": "Discount Promo!"
     }]
