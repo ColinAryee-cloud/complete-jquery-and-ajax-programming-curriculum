@@ -1,13 +1,42 @@
 <html>
-    <head>
-        <script src="js/jquery-3.5.1.js"></script>
-        <script src="js/main.js"></script>
-        <link rel="stylesheet" type="text/css"
-        href="css/style.css"/>
-    </head>
-    <body>
-        Hello world!
-    </body>
+<head>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
-    
+</head>    
+<body>   
+   <div id="cart-container">
+    $0
+   </div>
+   <div id="user-data">
+       <form name="cart-form" method="POST" action="data/cartSubmit.json">
+       <br/>
+       <label>Name</label>
+       <input type="text"></input>
+    <br/>
+    <label>Email</label>
+    <input name="email" type="text"></input>
+    <br/>
+    <label>Newsletter?</label>
+    <input name="wantNewsletter" id="newsletter-checkbox" type="checkbox"></input>
+    <br/>
+    <select name="newletterFrequency" id="newsletter-frequency"> 
+        <option>-</option>
+        <option>Weekly</option>
+        <option>Monthly</option>
+    </select>
+    <br/>
+    <button 
+    id="submit-cart">Submit</button>
+    </form>
+    <br/>
+    <div id="feedback-message"></div>
+    </div>
+    </div>
+    <div id="container">
+     <br style="clear: left;"/>
+    </div>
+
+</body>
 </html>

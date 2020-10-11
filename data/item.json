@@ -1,0 +1,20 @@
+{
+    "items": [{
+      "id": 1000,
+      "name": "Santa Monica",
+      "description": "For sale",
+      "price": 99,
+      "moreInfo": "Promotion!"
+    }, {
+      "id": 1001,
+      "name": "Recife",
+      "description": "Buy one get one free.",
+      "price": 49,
+      "moreInfo": "Available in bulk"
+    }, {
+      "id": 1002,
+      "name": "Long Beach",
+      "description": "20% discount",
+      "price": 46,
+      "moreInfo": "Lorem ipsum dolor sit amet"
+    }]
